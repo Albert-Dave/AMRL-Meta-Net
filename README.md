@@ -61,3 +61,14 @@ This will:
 
 No manual configuration is required.
 
+ # Results & Logging
+	•	Training and evaluation metrics are logged as CSV files
+	•	Mean and standard deviation are computed using NumPy
+	•	Logs are stored in the logs/ directory
+	•	All numerical values are reported with two decimal places, matching the paper
+
+# Reproducibility
+	•	Fixed random seeds
+	•	Deterministic execution (where supported)
+	•	CPU-only compatible
+	•	No hidden state or notebook-only logic
